@@ -20,8 +20,8 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Nigeria/Akwaibom/uy
 global.github=process.env.GITHUB|| "https://github.com/uwemdev/all-in-one-whatsapp-bot";
 global.gurl  =process.env.GURL  || "https://api.whatsapp.com/send?phone=2348110572387&text=Hi%20Uwem%2C";
 global.website=process.env.GURL || "https://uwemdev.com" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://uwemdev.com/storage/home/about-file-1724092734.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "Uwemdev" 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "" ; // SET LOGO FOR IMAGE 
+global.caption = process.env.CAPTION || global.caption || "Vu Study Solution" 
 
 
 global.devs = "923071003071" // Developer Contact
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "★彡UwemDev彡★",
   packname: process.env.PACK_NAME || "Sticker by",
-  botname : process.env.BOT_NAME  || "UwemDev",
-  ownername:process.env.OWNER_NAME|| "★彡UwemDev彡★",
+  botname : process.env.BOT_NAME  || "HAKEEM",
+  ownername:process.env.OWNER_NAME|| "U S A M A",
 
 
   errorChat : process.env.ERROR_CHAT || "",
